@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@color/cardview_dark_background">
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="TOAST"
+        android:textSize="20sp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewCounter"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="0"
+        android:textSize="64sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonCount"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="COUNT"
+        android:textSize="20sp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
