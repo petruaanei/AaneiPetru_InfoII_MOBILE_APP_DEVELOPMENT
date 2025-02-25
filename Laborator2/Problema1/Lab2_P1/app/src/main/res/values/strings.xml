@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab2_P1</string>
+        <string name="default_message">Primul Mesaj</string>
+        <string name="changed_message">Mesaj Schimbat</string>
+</resources>
