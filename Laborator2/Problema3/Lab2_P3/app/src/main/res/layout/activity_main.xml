@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+
+    <Button
+        android:id="@+id/btnControl_Lumina"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Aprinde lumina"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+    <Switch
+        android:id="@+id/switchAutoMode"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Mod automat"
+        android:textColor="@color/white"
+        android:layout_below="@id/btnControl_Lumina"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btnSchimbaCuloarea"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Schimba culoarea"
+        android:layout_below="@id/switchAutoMode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
