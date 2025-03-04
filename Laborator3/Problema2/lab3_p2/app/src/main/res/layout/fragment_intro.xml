@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txtIntroTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bun venit in cartea Formula 1!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txtIntroContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formula 1 este mai mult decat un sport – este o combinatie perfecta intre tehnologie, viteza si strategie. De la inceputurile sale in anii '50 pana in prezent, F1 a evoluat spectaculos, aducand inovatii incredibile si momente de neuitat pe circuit. Aceasta carte iti va prezenta cele mai importante aspecte ale Formulei 1, de la piloti legendari la revolutiile tehnologice."
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:lineSpacingExtra="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"/>
+</LinearLayout>

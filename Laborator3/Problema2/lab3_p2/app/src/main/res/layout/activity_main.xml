@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/txtIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Descopera istoria și evolutia Formulei 1"
+        android:gravity="center"
+        android:paddingBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnChapter1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Originea"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            android:padding="10dp"
+            android:layout_margin="6dp"/>
+
+        <Button
+            android:id="@+id/btnChapter2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Eroii"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            android:padding="10dp"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnChapter3"
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:text="Tehnologie"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            android:padding="10dp"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnChapter4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Circuite"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            android:padding="10dp"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
