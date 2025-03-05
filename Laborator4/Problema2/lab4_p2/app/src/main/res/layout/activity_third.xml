@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/gray">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/image3" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Associazione Calcio Milan, cunoscut mai mult ca AC Milan sau doar Milan, este un club profesionist de fotbal cu sediul in Milano, Lombardia, Italia, care evolueaza in Serie A. Clubul a fost fondat in 1899 de Herbert Kilpin, Alfred Edwards si alti patru englezi. Clubul a petrecut intreaga sa istorie in Serie A, prima liga a fotbalului italian, cu exceptia a doua sezoane petrecute in Serie B, sezoanele 1980–81 si 1982–83."
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+
+    </LinearLayout>
+
+</LinearLayout>

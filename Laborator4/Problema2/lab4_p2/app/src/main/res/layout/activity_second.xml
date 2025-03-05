@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/gray">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/image2" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liverpool Football Club, pe scurt Liverpool FC sau simplu Liverpool, este un club de fotbal din Liverpool, Anglia, care evolueaza in Premier League. Liverpool este una dintre echipele de top ale Angliei, cu un succes enorm si international. De la fondarea sa in 1892, Liverpool a castigat cel mai mare numar de Cupe UEFA, Supercupe ale Europei si Cupe ale Ligii. Terenul propriu al clubului este stadionul Anfield, cu o capacitate de 54.074 de locuri, aflat la aproape trei mile de centrul orasului Liverpool."
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
