@@ -4,27 +4,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/cardview_dark_background">
+    android:background="@color/silver">
 
     <Button
         android:id="@+id/buttonWeb"
         android:layout_marginTop="250dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Deschide Youtube" />
+        android:text="Deschide Youtube"
+        android:backgroundTint="@color/orange"/>
 
     <Button
         android:id="@+id/buttonMaps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Deschide Google Maps"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/orange"/>
 
     <Button
         android:id="@+id/buttonCall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Apeleaza un numar"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/orange"/>
 
 </LinearLayout>

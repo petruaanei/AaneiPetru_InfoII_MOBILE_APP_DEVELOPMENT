@@ -28,25 +28,29 @@
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ADD" />
+            android:text="ADD"
+            android:backgroundTint="@color/verde"/>
 
         <Button
             android:id="@+id/btnSub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SUB" />
+            android:text="SUB"
+            android:backgroundTint="@color/verde"/>
 
         <Button
             android:id="@+id/btnMul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MUL" />
+            android:text="MUL"
+            android:backgroundTint="@color/verde"/>
 
         <Button
             android:id="@+id/btnDiv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DIV" />
+            android:text="DIV"
+            android:backgroundTint="@color/verde"/>
     </LinearLayout>
 
     <TextView

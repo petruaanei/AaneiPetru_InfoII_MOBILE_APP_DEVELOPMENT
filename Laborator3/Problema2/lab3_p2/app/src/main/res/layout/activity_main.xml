@@ -33,9 +33,9 @@
             android:text="Originea"
             android:textSize="14sp"
             android:textColor="@android:color/white"
-            android:background="@color/black"
             android:padding="10dp"
-            android:layout_margin="6dp"/>
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/red"/>
 
         <Button
             android:id="@+id/btnChapter2"
@@ -45,7 +45,7 @@
             android:text="Eroii"
             android:textSize="14sp"
             android:textColor="@android:color/white"
-            android:background="@color/black"
+            android:backgroundTint="@color/red"
             android:padding="10dp"
             android:layout_margin="4dp"/>
 
@@ -57,7 +57,7 @@
             android:text="Tehnologie"
             android:textSize="14sp"
             android:textColor="@android:color/white"
-            android:background="@color/black"
+            android:backgroundTint="@color/red"
             android:padding="10dp"
             android:layout_margin="4dp"/>
 
@@ -69,7 +69,7 @@
             android:text="Circuite"
             android:textSize="14sp"
             android:textColor="@android:color/white"
-            android:background="@color/black"
+            android:backgroundTint="@color/red"
             android:padding="10dp"
             android:layout_margin="4dp"/>
     </LinearLayout>

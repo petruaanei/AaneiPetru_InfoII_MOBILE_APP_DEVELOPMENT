@@ -33,14 +33,16 @@
             android:id="@+id/buttonBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Back"/>
+            android:text="Back"
+            android:backgroundTint="@color/blue"/>
 
         <Button
             android:id="@+id/buttonNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"
-            android:layout_marginStart="10dp" />
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/blue"/>
     </LinearLayout>
 
 </LinearLayout>
