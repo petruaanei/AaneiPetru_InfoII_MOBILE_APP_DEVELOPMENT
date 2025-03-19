@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingBottom="20dp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button_00"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_01"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_02"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_10"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_11"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_12"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_20"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_21"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_22"
+            style="@style/TicTacToeButton"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+</LinearLayout>
